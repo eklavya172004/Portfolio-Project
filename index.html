@@ -1,0 +1,174 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personel Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="background-image">
+        <div class="container">
+        <nav>
+            <img src="logo.png" class="logo" alt="" srcset="">
+            <ul id="sidemenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="show()"></i>
+        </nav>
+            <div class="background-text">
+               <p>
+                Web Developer
+               </p>
+               <div id="text">Hi,I'm <a id="name">Eklavya</a><br> Nath From India</div>
+            </div>
+        </div>
+    </div>
+    <!-- Background - image -->
+
+    <!-- About Me -->
+     <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-column1">
+                <img src="user.png" alt="" srcset="">
+            </div>
+                   <div class="about-column2">
+               <h1 class="about-head">About Me</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas alias non voluptatum tenetur nihil omnis quidem nam atque repellat beatae neque facilis, enim pariatur, veniam aliquam reprehenderit incidunt inventore. Assumenda.</p>
+                    <div class="about-nav">
+                        <p class="about-nav1 hover-1" onclick="opentab('skills')">Skills</p>
+                        <p class="about-nav1" onclick="opentab('experience')">Experience</p>
+                        <p class="about-nav1" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="about-contents active-tabs" id="skills">
+                        <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Designing Web/App interfaces</li>
+                        <li><span>App Development</span><br>Building Android/IOS</li>
+                        </ul>
+                    </div>
+                    <div class="about-contents" id="experience">
+                        <ul>
+                        <li><span>2021 - Current</span><br>UI/UX Design Training at ET Institute</li>
+                        <li><span>2019 - 2021 </span><br>Team lead at StartApp LLC.</li>
+                        <li><span>2017 - 2019 </span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                        <li><span>2016 - 2017 </span><br>Internship at ekart eCommerce.</li>
+                    </ul>
+                    </div>
+                    <div class="about-contents" id="education">
+                        <ul>
+                        <li><span>2016</span><br>UI/UX Design Training at ET Institue </li>
+                        <li><span>2016</span><br>MBA from MIT Bangalore </li>
+                        <li><span>2014</span><br>BBA from ISM Bangalore</li>
+                        </ul>
+                    </div>
+            </div>
+          </div>
+       </div>
+    </div>
+            <!--    About Me Finish     -->
+
+    <div class="services">
+        <div class="container">
+            <h1 class="about-head">My Services </h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facere mollitia quisquam dolorum numquam labore expedita quae sit reprehenderit temporibus libero ut .</p>
+                        <a href="">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facere mollitia quisquam dolorum numquam labore expedita quae sit reprehenderit temporibus libero ut .</p>
+                        <a href="">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque facere mollitia quisquam dolorum numquam labore expedita quae sit reprehenderit temporibus libero ut .</p>
+                        <a href="">Learn more</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!--               ABOUT ME FINISHED                    -->
+
+    <!--               Portfolio     starts                                 -->
+        <div class="services">
+            <div class="container">
+                <h1 class="about-head">My Work</h1>
+                <div class="work-list">
+                   <div class="work">
+                    <img src="work-1.png" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.Dowload it from playStore.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                              </div>
+                     </div>
+                   <div class="work">
+                    <img src="work-2.png" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world.Dowload it from playStore.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                              </div>
+                   </div>
+                   <div class="work">
+                    <img src="work-3.png" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world.Dowload it from playStore.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                              </div>
+                   </div>
+                </div>
+                    <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!--        PortFolio Ends -->
+            
+        <!--        Contact Form -->
+        <div  id="contact">
+            <div class="container">
+                <div class="content-items">
+                    <div class="contact-info1">
+                        <h1 class="about-head">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                        <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook" target="_blank"></i></a>
+                            <a href="https://www.instagram.com/eklavya._17/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/eklavya-nath-506818286/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/eklavya172004" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="my-cv.pdf" target="_blank" class="btn1 btn2">Dowload CV</a>
+                    </div>
+                            
+                    <div class="contact-info2">
+                       <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email"  required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn1" >Submit</button>
+                       </form>
+                            <span id="msg"></span>
+                    </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright <i class="fa-regular fa-copyright"></i>Kevin with ❣️ by easy tutorial</p>
+        </div>
+    </div>
+    <!--  PROJECT IS COMPLETED  -->
+    <script src="index.js"></script>
+</body>
+</html>
