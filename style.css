@@ -144,6 +144,55 @@ nav ul li a:hover::after{
 .about-contents.active-tabs{
     display:block;
 }
+
+.stats{
+    padding-top: 5rem;
+}
+.bars{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+}
+.bar1{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.percentage{
+    color: grey
+}
+.progress{
+    width: 100%;
+    height: .45rem;
+    background-color: rgb(78, 76, 76);
+    margin-left: 1rem;
+    position: relative;
+}
+ .html{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;   
+            background-color: #fff3f3;
+            transition: all .4s ease-in-out;
+            width: 100%;
+        }
+.html2{
+    width: 90%;
+}
+.html3{
+    width: 80%; 
+}
+.html4{
+    width: 30%;
+}
 /* -------------ABOUT ENDS */
 
 /* MY SERVICES */
@@ -385,7 +434,7 @@ span#msg{
 }
 .background-text p{
     font-size: 20px;
-    margin-top: 360px;
+    margin-top: 370px;
 }
 #text{
     font-size: 25px;
@@ -509,7 +558,7 @@ form{
     justify-content: center;
 }
 form textarea{
-  height: 100px;
+    height: 100px;
     width: 280px;
 }
 .contact-info2{
@@ -519,4 +568,8 @@ form textarea{
 form input{
     width: 280px;
 }
+.bars{
+    grid-template-columns: 1fr;
 }
+}
+
